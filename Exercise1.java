@@ -29,7 +29,7 @@ public class Exercise1 {
             System.out.println("División de y e x: "+(y / x));
             System.out.println("------------------------------");
         } catch (InputMismatchException ex) {
-            System.out.println("Dato introducido erroneo");
+            System.out.println("Dato introducido erróneo");
         }
     }
 }
