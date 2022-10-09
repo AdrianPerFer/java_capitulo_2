@@ -6,7 +6,7 @@ public class Exercise1 {
         // Variables
         int x = 144;
         int y = 999;
-        // Salidas por pantallas
+        // Outputs
         System.out.println("Valor de x: " + x);
         System.out.println("------------------------------");
         System.out.println("Valor de y: " + y);
@@ -19,9 +19,9 @@ public class Exercise1 {
         System.out.println("------------------------------");
         System.out.println("Multiplicación de x e y: "+(x * y));
         System.out.println("------------------------------");
-        System.out.println("División de x e y: "+(x / y));
+        System.out.println("División de x e y: "+((float)x / (float)y));
         System.out.println("------------------------------");
-        System.out.println("División de y e x: "+(y / x));
+        System.out.println("División de y e x: "+((float)y / (float)x));
         System.out.println("------------------------------");
     }
 }
