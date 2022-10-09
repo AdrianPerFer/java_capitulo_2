@@ -1,7 +1,7 @@
 /* Escribe un programa en el que se declaran las variables enteras x, y. Asígnales
 los valores 144 y 999 respectivamente. A continuación, muestra por pantalla
 el valor de cada variable, la suma, la resta, la división y la multiplicación. */
-public class Exercise1 {
+public class Ejercicio1 {
     public static void main(String[] args) {
         // Variables
         int x = 144;
