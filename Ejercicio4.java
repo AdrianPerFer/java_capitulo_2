@@ -26,6 +26,6 @@ public class Ejercicio4 {
             System.out.println(euros + " son " + total + " pesetas");
         } catch (InputMismatchException ex) {
             System.out.println("Dato introducido erróneo");
-        }
+        } sc.close();
     }
 }
