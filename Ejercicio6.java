@@ -1,21 +1,27 @@
-/******************************************************************************************
- * 6.   Escribe un programa que calcule el total de una factura a partir de la base       *
- *      imponible (precio sin IVA). La base imponible estará almacenada en una variable   *
- *      forma que el resultado del programa sea el mismo que en el ejercicio 2.           *
- *                                                                                        *
- ******************************************************************************************
- *                                                                    |  |                *
- *                                                                    |  |                *
- *                          @author Adrián Perogil Fernández        *      *              *
- *                                                                   ******               *
- ******************************************************************************************/
+/*
+    ************************************************************************************
+    *                                                                                  *
+    *         2.   Variables                                                           *
+    *                                                                                  *
+    *         6.   Escribe un programa que calcule el total de una factura a partir    *
+    *              de la base imponible (precio sin IVA). La base imponible estará     *
+    *              almacenada en una variable.                                         *
+    *                                                                                  *
+    ************************************************************************************
+    *                                                              |  |                *
+    *                                                              |  |                *
+    *                    @author Adrián Perogil Fernández        *      *              *
+    *                                                             ******               *
+    ************************************************************************************
+*/
 public class Ejercicio6 {
     public static void main(String[] args) {
-        // Variable
+        // Variable "base_imponible"
         double base_imponible = 1300;
-        // Output
-        System.out.println("Base imponible: " + base_imponible);
-        System.out.println("El IVA es: " + base_imponible * 0.21);
-        System.out.println("Total (IVA incluido): " + base_imponible * 1.21);
+        // Outputs
+        System.out.printf("Base imponible: %.2f euros. \n", base_imponible);
+        System.out.printf("El IVA es: %.2f euros. \n", base_imponible * 0.21);
+        System.out.println("-----------------------------");
+        System.out.printf("Total (IVA incluido): %.2f euros. \n", base_imponible * 1.21);
     }
 }
